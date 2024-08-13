@@ -611,3 +611,89 @@ nav {
   background-color: rgba(35, 75, 218, 1);
   width: 266px;
 }
+
+/* my Services */
+#services_section {
+  width: 100%;
+  margin-top: 150px;
+  padding: 70px 0;
+  background-color: rgba(255, 247, 213, 1);
+}
+
+.services_content {
+  max-width: 615px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.services_content h2 {
+  font-family: var(--secondaryFont);
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.services_content p {
+  font-size: 1.1rem;
+  line-height: 180%;
+  margin-top: 10px;
+}
+
+.services_container {
+  width: 100%;
+  max-width: 1110px;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services_card {
+  border-radius: 12px;
+  width: 350px;
+  height: 422px;
+  padding: 48px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+  background: var(--lightColor);
+  text-align: center;
+  flex-direction: column;
+  transition: 0.4s;
+}
+
+.services_card:hover {
+  background-color: var(--buttonColor);
+  transform: scaleX(1.1) scaleY(1.1);
+  transform: translate(0px, -3%) scaleX(1.08) scaleY(1.08);
+}
+
+.sCard_image,
+.sCard_image2,
+.sCard_image3 {
+  width: 90px;
+  height: 90px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sCard_image {
+  background-image: url(../images/fr1.png);
+}
+.sCard_image2 {
+  background-image: url(../images/fr2.png);
+}
+.sCard_image3 {
+  background-image: url(../images/fr3.png);
+}
+
+.services_card h3 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 180%;
+  margin: 25px 0;
+}
+
+.services_card p {
+  line-height: 180%;
+  color: var(--secondaryTextColor);
+}
