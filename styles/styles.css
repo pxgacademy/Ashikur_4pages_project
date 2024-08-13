@@ -38,7 +38,7 @@ body {
   border-radius: 20px;
   background-color: var(--lightColor);
   color: var(--primaryTextColor);
-  padding: 20px 45px;
+  padding: 15px 45px;
   font-size: 1.25rem;
   transition: 0.4s;
 }
@@ -521,4 +521,93 @@ nav {
 
 .work_experience2 {
   width: 60%;
+}
+
+/* expert areas */
+
+#expert_area_section {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.expert_area_content {
+  width: 55%;
+}
+
+.expert_area_content h2 {
+  font-family: var(--secondaryFont);
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.expert_area_content p {
+  font-size: 1.25rem;
+  line-height: 200%;
+  color: var(--secondaryTextColor);
+  margin: 40px 0;
+}
+
+.mySkills {
+  margin-top: 40px;
+}
+
+.skill_name {
+  justify-content: flex-start;
+}
+
+.figma {
+  margin-left: 235px;
+}
+.ps {
+  margin-left: 165px;
+}
+.xd {
+  margin-left: 245px;
+}
+.ai {
+  margin-left: 148px;
+}
+
+.a,
+.b,
+.c,
+.d {
+  width: 380px;
+  height: 6px;
+  margin: 20px 0;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  position: relative;
+}
+
+.a::after,
+.b::after,
+.c::after,
+.d::after {
+  content: "";
+  height: 6px;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.a::after {
+  background-color: rgba(241, 101, 0, 1);
+  width: 323px;
+}
+.b::after {
+  background-color: rgba(3, 36, 155, 1);
+  width: 285px;
+}
+.c::after {
+  background-color: rgba(112, 13, 96, 1);
+  width: 304px;
+}
+.d::after {
+  background-color: rgba(35, 75, 218, 1);
+  width: 266px;
 }
