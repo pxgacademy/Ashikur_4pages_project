@@ -49,6 +49,12 @@ body {
   border: 1px solid rgba(0, 0, 0, 0);
 }
 
+.hover2:hover {
+  background-color: var(--primaryTextColor);
+  color: var(--lightColor);
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
 header {
   width: 1110px;
   margin: 0 auto;
@@ -273,12 +279,6 @@ nav {
   margin: 40px 0;
 }
 
-.about_seeMore_btn:hover {
-  background-color: var(--primaryTextColor);
-  color: var(--lightColor);
-  border: 1px solid rgba(0, 0, 0, 0);
-}
-
 /* under about card section */
 
 #under_about_card_section {
@@ -338,4 +338,56 @@ nav {
 .card p {
   line-height: 190%;
   color: var(--secondaryTextColor);
+}
+
+#branding_section {
+  background: url(../images/Ellipse-56.png), url(../images/line_shape.png),
+    linear-gradient(
+      45deg,
+      rgba(255, 204, 0, 1),
+      rgba(255, 204, 0, 0.8),
+      rgba(255, 204, 0, 0.5)
+    );
+  background-repeat: no-repeat;
+  background-position: right 80px top -20px, right 260px bottom 120px, center;
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  margin-top: 150px;
+  padding: 0 30px;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.branding_image {
+  width: 50%;
+}
+
+.branding_image img {
+  position: relative;
+  bottom: -13px;
+}
+
+.branding_content {
+  width: 50%;
+}
+
+.branding_content h2 {
+  font-family: var(--secondaryFont);
+  font-weight: 700;
+  font-size: 2.9rem;
+}
+
+.branding_content p {
+  font-size: 1.1rem;
+  line-height: 190%;
+  margin: 20px 0 35px;
+}
+
+#help_section {
+  margin-top: 150px;
 }
