@@ -55,6 +55,12 @@ body {
   border: 1px solid rgba(0, 0, 0, 0);
 }
 
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 header {
   width: 1110px;
   margin: 0 auto;
@@ -388,6 +394,131 @@ nav {
   margin: 20px 0 35px;
 }
 
+/* help section */
 #help_section {
+  width: 100%;
   margin-top: 150px;
+}
+
+.help_container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.help_cards {
+  width: 50%;
+}
+
+.help_card {
+  border-radius: 20px;
+  width: 380px;
+  height: 93px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+  background: var(--lightColor);
+  justify-content: flex-start;
+}
+
+.helpCard_margin {
+  margin: 25px 0;
+}
+
+.help_card_img {
+  width: 58px;
+  height: 58px;
+  margin: 0 20px;
+  border-radius: 50%;
+}
+
+.hci1 {
+  background-color: rgba(86, 133, 47, 1);
+}
+.hci2 {
+  background-color: rgba(254, 220, 42, 1);
+}
+.hci3 {
+  background-color: rgba(255, 141, 58, 1);
+}
+
+.help_content {
+  width: 40%;
+  text-align: right;
+}
+
+.help_content > h2 {
+  font-family: var(--secondaryFont);
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.help_content > p {
+  line-height: 190%;
+  margin: 25px 0 35px;
+}
+
+.help_score {
+  justify-content: flex-end;
+  text-align: left;
+  gap: 65px;
+}
+
+.score_box h3 {
+  font-family: var(--secondaryFont);
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.score_box p {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 180%;
+}
+
+/* work experience section */
+
+#work_experience_section {
+  width: 100%;
+  margin-top: 150px;
+}
+
+.work_experience_title {
+  font-family: var(--secondaryFont);
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+}
+.work_experience_container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  margin-top: 70px;
+  gap: 25px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.work_experience1 {
+  width: 30%;
+}
+
+.sub_experience {
+  height: 180px;
+  margin-top: 40px;
+}
+
+.sub_experience h3 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 180%;
+}
+
+.sub_experience p {
+  font-size: 1.1rem;
+  line-height: 200%;
+  color: var(--secondaryTextColor);
+}
+
+.work_experience2 {
+  width: 60%;
 }
