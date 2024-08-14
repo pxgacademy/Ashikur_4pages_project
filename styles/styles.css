@@ -618,6 +618,7 @@ nav {
   margin-top: 150px;
   padding: 70px 0;
   background-color: rgba(255, 247, 213, 1);
+  cursor: default;
 }
 
 .services_content {
@@ -696,4 +697,142 @@ nav {
 .services_card p {
   line-height: 180%;
   color: var(--secondaryTextColor);
+}
+
+/* valuable feedback */
+#feedback_section {
+  width: 100%;
+  padding: 90px 0;
+  background: rgba(251, 251, 251, 1);
+}
+
+.feedback_container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.feedback_container p {
+  font-size: 1.25rem;
+  line-height: 200%;
+  color: var(--secondaryTextColor);
+}
+
+.feedback_title {
+  width: 700px;
+  margin-bottom: 50px;
+}
+
+.feedback_title > h2 {
+  font-family: var(--secondaryFont);
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 135%;
+}
+
+.feedback_content {
+  gap: 60px;
+}
+
+.feedback_image {
+  background-image: url(../images/fr4.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 80%;
+  width: 50%;
+  height: 480px;
+  position: relative;
+  align-items: flex-start;
+}
+
+.feedback_mainImg {
+  height: 90%;
+}
+
+.polygon,
+.line_shape,
+.img_shape {
+  position: absolute;
+}
+
+.polygon {
+  top: 50px;
+  right: 130px;
+}
+.line_shape {
+  left: -10px;
+  bottom: 60px;
+}
+.img_shape {
+  bottom: 0px;
+}
+
+.feedback_description {
+  width: 50%;
+}
+
+.feedback_description h5 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 200%;
+}
+
+/* blog post */
+#blogPost_section {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+.blogPost_title {
+  font-family: var(--secondaryFont);
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 135%;
+  text-align: center;
+}
+
+.blogPost_cards {
+  margin-top: 90px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 40px;
+  column-gap: 30px;
+}
+
+.blog_card {
+  display: flex;
+  gap: 20px;
+}
+
+.blog_card > img {
+  width: 80%;
+}
+
+.blog_date {
+  font-size: 0.9rem;
+  line-height: 190%;
+  color: var(--secondaryTextColor);
+  justify-content: space-between;
+}
+
+.blog_date span {
+  font-weight: 500;
+  color: var(--primaryTextColor);
+  margin-right: 15px;
+}
+
+.blog_card h5 {
+  font-weight: 600;
+  font-size: 1.175rem;
+  line-height: 190%;
+  margin-bottom: 80px;
+}
+
+.blog_card a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.175rem;
+  line-height: 190%;
+  color: var(--primaryTextColor);
 }
