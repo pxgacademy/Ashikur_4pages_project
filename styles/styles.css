@@ -1200,3 +1200,95 @@ footer {
   color: var(--secondaryTextColor);
   margin-top: 10px;
 }
+
+/* ======================================================================== */
+/* Contact page */
+
+#contact_titli {
+  position: absolute;
+  top: -18px;
+  left: 462px;
+  width: 30px;
+}
+
+#contact_form_section {
+  width: 1110px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.address_container {
+  width: 40%;
+}
+
+.address {
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.address_margin {
+  margin: 30px 0;
+}
+
+.address_image,
+.mail_image,
+.phone_image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+}
+
+.address_image {
+  background-color: rgba(255, 235, 220, 1);
+  color: rgba(241, 101, 0, 1);
+}
+.mail_image {
+  background-color: rgba(240, 255, 228, 1);
+  color: rgba(85, 133, 47, 1);
+}
+.phone_image {
+  background-color: rgba(238, 242, 255, 1);
+  color: rgba(35, 75, 218, 1);
+}
+
+.address h5 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 190%;
+}
+
+.address p {
+  line-height: 150%;
+  color: var(--secondaryTextColor);
+}
+
+.contact_form {
+  width: 66%;
+
+}
+
+.contact_input input,
+.contact_input textarea {
+  outline: none;
+  border: 0.5px solid var(--secondaryTextColor);
+  border-radius: 12px;
+  padding: 25px 20px;
+  font-family: var(--primaryFont);
+  color: var(--secondaryTextColor);
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.contact_input input {
+  width: 310px;
+}
+
+.contact_input textarea {
+  width: 622px;
+  height: 300px;
+}
+
