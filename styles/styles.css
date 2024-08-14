@@ -973,3 +973,45 @@ footer {
   margin-left: 15px;
   cursor: pointer;
 }
+
+/* ======================================================================== */
+/* Projects page */
+
+/* projects banner */
+#projects_banner {
+  width: 1110px;
+  margin: 0 auto;
+  margin-top: 60px;
+  padding: 40px 0;
+  background-image: url(../images/bgp.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.projects_banner_container {
+  text-align: center;
+  position: relative;
+}
+
+.projects_banner_container > img {
+  position: absolute;
+  top: -18px;
+  left: 465px;
+  width: 30px;
+}
+
+.projects_banner_container h2 {
+  font-family: var(--secondaryFont);
+  font-weight: 700;
+  font-size: 3rem;
+  color: var(--lightColor);
+}
+
+.projects_banner_container p {
+  font-family: var(--primaryFont);
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 190%;
+  color: var(--lightColor);
+  margin: 0 8px;
+}
