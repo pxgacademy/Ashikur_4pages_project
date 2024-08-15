@@ -251,13 +251,16 @@ nav {
 
 /* about section home */
 #about_section_home {
-  background: linear-gradient(
-    45deg,
-    rgba(255, 204, 0, 1),
-    rgba(255, 204, 0, 0.8),
-    rgba(255, 204, 0, 0.5)
-  );
+  background: url(../images/Ellipse-55.png),
+    linear-gradient(
+      45deg,
+      rgba(255, 204, 0, 1),
+      rgba(255, 204, 0, 0.8),
+      rgba(255, 204, 0, 0.5)
+    );
   margin-top: 150px;
+  background-repeat: no-repeat;
+  background-position: right 80px bottom -10px, center;
 }
 
 .about_section_home_container {
