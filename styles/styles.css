@@ -271,7 +271,9 @@ nav {
 
 .about_section_home_image {
   width: 50%;
-  background-image: url(../images/);
+  background-image: url(../images/background-shapes.png);
+  background-repeat: no-repeat;
+  background-position: bottom 60px left 0px;
 }
 
 .about_section_home_image img {
