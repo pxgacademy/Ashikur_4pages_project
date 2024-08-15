@@ -107,6 +107,10 @@ nav {
   border-bottom: 1px solid var(--primaryTextColor);
 }
 
+.menu_link:active .menu_list {
+  border-bottom: 1px solid var(--primaryTextColor);
+}
+
 /* .menu_list:last-child {
   padding-right: 0;
 } */
@@ -975,6 +979,59 @@ footer {
 }
 
 /* ======================================================================== */
+/* About page */
+
+#about_titli {
+  position: absolute;
+  top: -18px;
+  left: 444px;
+  width: 30px;
+}
+
+/* about me section */
+#aboutMe_section {
+  width: 1110px;
+  margin: 0 auto;
+  margin-top: 250px;
+  gap: 50px;
+}
+
+.aboutMe_content {
+  width: 50%;
+}
+
+.aboutMe_content h2 {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.aboutMe_content p {
+  font-size: 1.2rem;
+  line-height: 180%;
+  margin-bottom: 40px;
+}
+
+.aboutMe_image {
+  width: 50%;
+  height: 450px;
+  text-align: center;
+  border-radius: 60px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 204, 0, 1),
+    rgba(255, 204, 0, 0.8),
+    rgba(255, 204, 0, 0.5)
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.aboutMe_image img {
+  width: 80%;
+}
+/* ======================================================================== */
 /* Projects page */
 
 /* global banner */
@@ -1268,7 +1325,6 @@ footer {
 
 .contact_form {
   width: 66%;
-
 }
 
 .contact_input input,
@@ -1291,4 +1347,3 @@ footer {
   width: 622px;
   height: 300px;
 }
-
